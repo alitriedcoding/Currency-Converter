@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Currency Converter</h1>
+      <div id="first-currency">
+        <select id="first-option">
+          <option value="AFN" selected>AFN</option>
+          <option value="IRR">IRR</option>
+          <option value="ANG">ANG</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="AUD">AUD</option>
+        </select>
+        <input id="first-input" type="number" min="0" value="1" />
+      </div>
+      <div id="second-currency">
+        <select id="second-option">
+          <option value="AFN" selected>AFN</option>
+          <option value="IRR">IRR</option>
+          <option value="ANG">ANG</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="USD">USD</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="AUD">AUD</option>
+        </select>
+        <input id="second-input" type="number" min="0" value="1" />
+      </div>
+      <p id="show-rate"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
